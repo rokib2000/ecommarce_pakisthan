@@ -1,0 +1,127 @@
+
+/*Extra small devices (portrait phones, less than 576px )*/
+
+@media (min-width: 320px) and (max-width: 489.98px){
+    .nav-link {
+        display: block;
+        /* padding: .5rem 1rem; */
+        padding: 6px!important;
+    }
+    .logo_nav {
+        margin-top: -59px!important;
+    }
+    /* .nav_bar {
+        margin-top: 25px!important;
+    } */
+    .mlr{
+        margin-left: 0px!important;
+    }
+    .bmt{
+        margin-top: 5px!important;
+    }
+    .cbtn {
+        float: left!important;
+    }
+}
+
+@media  (min-width: 490px) and (max-width: 575.98px){
+    .nav_bar {
+        margin-top: 37px;
+    }
+	.logo_nav {
+        margin-top: -73px!important;
+    }
+
+    .mlr{
+        margin-left: 0px!important;
+    }
+    .bmt{
+        margin-top: 5px;
+    }
+    .cbtn {
+        float: left;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up )*/
+@media (min-width: 576px) and (max-width: 767.98px){
+    .nav_bar {
+        margin-top: 37px;
+    }
+	.logo_nav {
+        margin-top: -73px!important;
+    }
+    .cbtn {
+        float: left;
+    }
+}
+
+/*Medium devices (tablets, 768px and up )*/
+@media (min-width: 768px) and (max-width: 991.98px){
+	.logo_nav{
+        margin-top: -106px;
+    }
+    .nav_bar {
+        margin-top: 70px;
+    }
+}
+
+/*Large devices (Desktops, 992px and up )*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.logo_nav{
+        margin-top: -125px;
+    }
+    .nav_bar {
+        margin-top: 96px;
+    }
+    .navbar_custom .navbar-nav .nav-link {
+        padding: 10px 9px;
+    }
+}
+
+/*Extra large devices (Large Desktop, 1200px and up )*/
+@media (min-width: 1200px){
+	.navbar_custom .navbar-nav .nav-link {
+        padding: 10px 14px;
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    .form-inline .form-control{
+      display: inline-block;
+      width: auto;
+      vertical-align: middle;  
+    margin-top: 5px;
+
+    }
+    
+  }
+  @media (max-width: 767px) {
+    .form-inline .form-group {
+      /* display: inline-block; */
+      margin-bottom: 0;
+      vertical-align: middle;
+    }
+
+  }
+
+
+
+
+
+
+/*Owl curasol*/
+
+
+@media screen and (max-width: 600px) {
+    .owl-nav {
+      display: none;
+    }
+
+    .owl-dots {
+      display: none;
+    }
+}

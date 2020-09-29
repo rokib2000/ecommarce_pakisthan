@@ -1,0 +1,377 @@
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* start header */
+
+
+    .top_ber{
+        background-color: #EFC1C1;
+    }
+
+    .top_ber ul li a{
+        color: #736357;
+    }
+
+    .header{
+      background-color: #ffffff;
+    }
+
+    .logo_img{
+        width: 100%;
+        height: px;
+    }
+    .logo_nav{
+        margin-top: -150px;
+    }
+    .icon_clr{
+        color: #EEBAC2;
+    }
+    .tnav_text{
+        color: #C28891;
+    }
+
+    .nav_bar{
+        margin-top: 120px;
+    }
+    .navbar_custom{
+    background-color: #EEBBC3;
+    /* border-radius: 5px; */
+    padding: 0;
+    }
+    .navbar_custom .navbar-nav .nav-link{
+        color: #ffffff;
+        padding: 10px 25px;
+        border-right: 1px #CEB1B5 solid;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color: white;
+        background-color: #D7546A;
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: white;
+        background-color: #D7546A;
+    }
+
+    .navbar-light .navbar-toggler {
+      margin: 8px 30px;
+  }
+
+
+/* end header */
+
+/* footer */
+footer{
+    background-color: #EFC1C1;
+    color: white;
+}
+
+.footer_list{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer_list li{
+    list-style: none;
+}
+.footer_list5{
+    margin: 0px;
+    padding: 0px;
+}
+.footer_list5 li{
+    list-style: none;
+    display: inline;
+}
+
+.copyright{
+    margin-top: 5px;
+}
+
+.cbtn{
+    border-radius: 5px 5px 0 0;
+    background-color: #FFDAE0;
+    float: right;
+}
+
+
+
+/* End footer */
+
+/* start index 1st slider */
+
+.slider {
+  position: relative;
+  z-index: 1;
+  height: 10px;
+  margin: 0 15px;
+  display: contents;
+}
+
+.carousel-indicators li{
+  height: 15px;
+  width: 10px;
+  background-color: #D46B89;
+  border: 2px solid white;
+    border-radius: 10px;
+}
+
+.carousel-indicators {
+  margin-bottom: 4%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+   left: 0; 
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: flex-end;
+  padding-left: 0;
+  margin-right: 7%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+
+
+/* end index 1st slider */
+
+
+
+/* start side navbar */
+
+
+
+
+.snav2 , .sidenav{
+  background-color: #F8F8F8;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #C28891;
+  display: block;
+  border: none;
+  background: none;
+  background-color: #F8F8F8;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown-btn{
+  
+  border-bottom: 1px solid;
+
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  background-color: #D8546A;;
+  color: #f1f1f1;
+}
+
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #F8F8F8;
+  color: #D8546A;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #F8F8F8;
+  padding-left: 8px;
+  color: #D8546A;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* end side navbar */
+
+/* start price range slider */
+
+
+
+
+/* end price range slider */
+
+
+/************* main page **********************/
+
+/* start search bar */
+.custom_btn{
+    background-color: #D4ACB2;
+    color: white;
+}
+/* end search bar */
+
+
+/* Start banner */
+.grid1{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+
+.sub{
+    background-color: #E1CDCE!important;
+}   
+/* End banner */
+
+/* 
+OWL carusol */
+.owl-nav {
+    position: absolute;
+    top: -2rem;
+    right: 0;
+  }
+
+  img {
+    width: 18px;
+  }
+
+  .owl-nav .owl-prev:hover, .owl-nav .owl-next:hover {
+    background: none !important;
+    outline: none !important;
+    opacity: 1;
+  }
+
+  .owl-nav .owl-prev, .owl-nav .owl-next {
+    outline: none;
+    opacity: 0.6;
+    transition: all .5s ease;
+  }
+
+  .owl-dots {
+    margin-top: 1rem;
+  }
+
+  .owl-dot {
+    outline: none;
+  }
+
+  .owl-dot.active, .owl-dot:hover {
+    transition: all .2s ease;
+    transform: scale(1.2);
+  }
+
+/* owl curosol end */
+
+
+
+
+/************* Cat Level 1 page **********************/
+
+
+/* start page content */
+
+
+.pagelist a{
+    color: #C28891;
+    text-decoration: none;
+}
+
+
+
+.pagelist li{
+    background-color: #F8F8F8;
+}
+.pagelist a li:hover{
+    background-color: #D8546A!important;
+    color: white;
+}
+
+/* end page content */
+
+
+/* 
+Swiper cat level1 page slider */
+
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.cat_slider2{
+  padding: 15px;
+  margin-top: 30px;
+}
+
+
+
+
+/************* product page **********************/
+
+
+
+
+/* start product view slide */
+
+
+
+
+/*  product view slide */
+
+
+.Pdittels {
+    background-color: #FFFBFC;
+    padding: 35px;
+    color: #C28891;
+}
+
+
+
+.custom_hr{
+    border: 5px solid #D4B7B9;
+  border-radius: 5px;
+}
+
+.product_reating {
+    background-color: #F0F0F0;
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+}
